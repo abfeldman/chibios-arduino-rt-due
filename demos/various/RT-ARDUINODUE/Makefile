@@ -101,7 +101,7 @@ include $(CHIBIOS)/os/rt/ports/ARMCMx/compilers/GCC/mk/port_v7m.mk
 include $(CHIBIOS)/test/rt/test.mk # rename this
 
 # Define linker script file here
-LDSCRIPT = $(STARTUPLD)/test.ld
+LDSCRIPT = $(STARTUPLD)/sam3x8e_flash.ld
 
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
